@@ -8,3 +8,8 @@ resource "azurerm_virtual_network" "vnet"{
     location = "central India"
     resource_group_name = "test_rg"
 }
+
+resource "azurerm_resource_group" "centralindia1" {
+    name = "centralindia_rg"
+    location = "centralindia"
+}
