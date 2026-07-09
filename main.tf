@@ -22,3 +22,8 @@ resource "azurerm_resource_group" "india" {
     name = "raj_rg"
     location = "centralindia"
     }
+
+    resource "azurerm_resource_group" "europe" {
+    name = "raj"
+    location = "west europe"
+    }
