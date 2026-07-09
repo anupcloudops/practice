@@ -13,3 +13,7 @@ resource "azurerm_resource_group" "canada" {
     name = "canada"
     location = "canada central"
     }
+resource "azurerm_resource_group" "centralindia1" {
+    name = "centralindia_rg"
+    location = "centralindia"
+}
