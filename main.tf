@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "centralindia1" {
     name = "centralindia_rg"
     location = "centralindia"
 }
+
+resource "azurerm_resource_group" "india" {
+    name = "raj_rg"
+    location = "centralindia"
+    }
