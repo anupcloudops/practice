@@ -23,7 +23,14 @@ resource "azurerm_resource_group" "india" {
     location = "centralindia"
     }
 
+
+resource "azurerm_resource_group" "Noida" {
+    name = "raju_rg"
+    location = "east us"
+    }
+
     resource "azurerm_resource_group" "europe" {
     name = "raj"
     location = "west europe"
     }
+
