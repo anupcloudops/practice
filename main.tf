@@ -10,6 +10,6 @@ resource "azurerm_virtual_network" "vnet"{
 }
 
 resource "azurerm_resource_group" "centralindia1" {
-    name = "ranjeet_rg"
+    name = "centralindia_rg"
     location = "centralindia"
 }
