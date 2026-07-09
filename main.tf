@@ -6,9 +6,13 @@ resource "azurerm_resource_group" "rgblock" {
 resource "azurerm_virtual_network" "vnet"{
     name = "vnet1"
     location = "central India"
-    resource_group_name = "test_rg"
+    resource_group_name = azurerm_resource_group.rgblock["rg1"].name
 }
 
+resource "azurerm_resource_group" "canada" {
+    name = "canada"
+    location = "canada central"
+    }
 resource "azurerm_resource_group" "centralindia1" {
     name = "centralindia_rg"
     location = "centralindia"
